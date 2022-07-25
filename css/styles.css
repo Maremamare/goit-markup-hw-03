@@ -160,7 +160,7 @@ body {
 
 .hero-title {
 	margin-bottom: 30px;
-	max-width: 696px;
+	min-width: 696px;
 
 	font-weight: 900;
 	font-size: 44px;
@@ -216,6 +216,8 @@ body {
 }
 
 .features-item-text {
+	min-width: 270;
+
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
@@ -285,6 +287,8 @@ body {
 }
 
 .comand-item-text {
+	margin-bottom: 30px;
+
 	font-size: 16px;
 	line-height: 1.18;
 	text-align: center;
@@ -336,13 +340,12 @@ body {
 .item-border {
 	border: 1px solid #eeeeee;
 	padding: 20px 24px;
+	min-width: 370px;
 }
 
 .projects-item-title {
 	margin-top: 20px;
 	margin-bottom: 4px;
-	margin-left: 0;
-	margin-right: 0;
 
 	font-weight: 700;
 	font-size: 18px;
@@ -353,8 +356,6 @@ body {
 
 .projects-item-text {
 	margin-bottom: 20px;
-	margin-left: 0;
-	margin-right: 0;
 
 	font-size: 16px;
 	line-height: 1.87;
@@ -370,6 +371,7 @@ body {
 }
 
 .contacts-logo {
+	display: block;
 	color: var(--second-title-color);
 	margin-bottom: 20px;
 }
